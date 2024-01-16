@@ -1,7 +1,6 @@
 import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
-
-body {
-    width: 1450px;
+body{
+    width: 1440px;
     height: 7500px;
 }
 header {
@@ -63,7 +62,7 @@ nav li a .home {
     margin-top: 50px;
     border-radius: 16px;
     background-repeat: no-repeat;
-    background: url(../B9A2-Hero-Travel-main/Images/Group\ 13\ \(1\)\ \(1\).png)
+    background: url('../B9A2-Hero-Travel-main/Images/Group\ 13\ \(1\)\ \(1\).png');
 }
 
 .banner-heading {
@@ -463,4 +462,196 @@ select {
     font-size: 16px;
     font-weight: 300;
     padding-left: 660px;
+}
+
+
+@media screen and (max-width:600px) {
+    header {
+        margin: 0px 85px;
+        margin-bottom: 0;
+    }
+    
+    header nav {
+        flex-direction: column;
+        justify-content:center;
+    }
+    
+    .nav-img {
+        width: 48px;
+        height: 56px;
+    }
+    
+    nav>ul {
+        display: none;
+    
+    }
+    
+    nav li {
+        list-style: none;
+    }
+    
+    nav li a {
+        text-decoration: none;
+        margin-right: 14px;
+        font-size: 8px;
+        font-weight: 400;
+    }
+    
+    .nav-title {
+        font-size: 16px;
+        font-weight: 400;
+        margin: 0;
+    }
+    
+    .banner {
+          width: 100%;
+          height:500px;
+          margin-top: 0px;
+    }
+    
+    .banner-heading {
+        padding-top: 5px;
+        margin: 0px;
+        padding-bottom: 30px;
+    }
+    
+    .banner-description {
+        width: 100%;
+        height: 20px;
+        margin-top: 0;
+    }
+    
+    .input-field-container {
+        flex-direction: column;
+        padding: 16px;
+        margin: 8px 115px;
+        gap: 14px;
+    }
+    
+
+    .popular-tour{
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .tour{
+        padding-left: 10px;
+    }
+    .tour-img{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+    }
+    .destination{
+         width: 100%;
+        height: 100%;
+        gap: 10px;
+    }
+
+    .destination-img {
+        flex-direction: column;
+        margin-bottom: 30px;
+        gap: 15px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .img-all{
+        height: 100%;
+    }
+    .destination-img-two {
+        flex-direction: column;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        gap: 15px;
+    }
+    .destination-img-three{
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .destination-img-three-second,
+    .destination-img-three-first,
+    .destination-img-two-third,
+    .destination-img-two-second,
+    .destination-img-two-first,
+    .destination-img-one-second,
+    .destination-img-one-first{
+        width: 100%;
+        height: 300px;
+        gap: 10px;
+    }
+
+    /* fffffffff */
+    
+    .card-content {
+        flex-direction: column;
+        margin-left: 0px;
+        gap: 24px;
+        
+    }
+    .card-three {
+        margin-left: 0px;
+        margin-top: 24px;
+    }
+
+    /* jjjjjjjjjjj */
+    .discount {
+        position: relative;
+        top: -201px;
+        margin-left:200px;
+    }
+
+    .newsletter-main {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        margin-top: 50px;
+    }
+    
+    .newsletter {
+        padding-left: 20px;
+    }
+    
+    .hr {
+        width: 250px;
+        padding-right: 290px;
+    }
+    
+    .newsletter-img {
+        width: 500px;
+    margin-left: 10px;
+
+    }
+    
+    .discount h2 {
+        margin-top: 5px;
+    
+    }
+    /* footer section finish */
+    
+    .footer-section {
+        width: 600px
+    }
+    
+    .footer-section-heading {
+        display: flex;
+        gap: 8px;
+        padding-top: 100px;
+    }
+    
+    .icon {
+        padding-left: 200px;
+        padding-top: 15px;
+    }
+    
+    .hr-one {
+        width: 435px;
+        height: 1px;
+        margin-top: 7px;
+    }
+    
+    .right {
+        padding-left:200px;
+    }
+    
 }
