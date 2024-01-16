@@ -248,6 +248,7 @@ select {
     line-height: 26px;
 }
 .food-img {
+    width: 600px;
     display: flex;
     border-radius: 16px;
     margin-left: 150px;
@@ -601,7 +602,11 @@ select {
         height: 300px;
         gap: 10px;
     }
-
+    .food-img{
+        width: 100%;
+        flex-direction:column ;
+        margin-left: 0%;
+    }   
     /* fffffffff */
     
     .card-content {
